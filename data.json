@@ -1,0 +1,67 @@
+{
+  "restaraunt_name": "BriteCore",
+  "restaraunt_address": "2305 South Blackman RD, Springfield, MO",
+  "restaraunt_phone_number": "417-851-1289",
+  "sections": [
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Grilled Salmon Caesar",
+          "description": "Grilled Atlantic salmon, crisp romaine fillets, Parmesan cheese, house-made croutons and anchovy-free Caesar dressing.",
+          "image_url": "https://newks.com/wp-content/uploads/2016/11/grill-salmon-caesar-1200x800.png"
+        },
+        {
+          "name": "Shrimp Rémoulade",
+          "description": "A full dozen plump broiled shrimp atop Arcadian mixed greens, with diced hard-boiled eggs, sweet grape tomatoes and made-from-scratch remoulade dressing.",
+          "image_url": "https://newks.com/wp-content/uploads/2016/11/ShrimpRemSalad__1024x800.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Soups",
+      "items": [
+        {
+          "name": "Pepperjack Crawfish",
+          "description": "Tender crawfish tails simmered in a velvety Pepperjack Cheese soup with Cajun seasoning, green bell peppers, onions and a splash of Tabasco.",
+          "image_url": "https://newks.com/wp-content/uploads/2017/04/CrawfishPepperJack_web-1.jpg"
+        },
+        {
+          "name": "Spinach & Feta",
+          "description": "A creamy mix of Feta cheese, spinach, potatoes, onion and sour cream.  Garnished with fresh basil.",
+          "image_url": "https://newks.com/wp-content/uploads/2017/04/SpinachFeta_web-1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Sandwhiches",
+      "items": [
+        {
+          "name": "Choice Roast Beef",
+          "description": "Medium-rare thinly sliced roast beef topped with provolone cheese, romaine lettuce, tomato, mayo and spicy Creole mustard. Served on Newk’s famous French Parisian bread.",
+          "image_url": "https://newks.com/wp-content/uploads/2016/11/choice-roast-beef-sandwich.jpg"
+        },
+        {
+          "name": "Bistro Steak Club",
+          "description": "A quarter pound of tenderloin steak topped with bacon, Ammerlander Swiss cheese, romaine, tomato, mayo and dijon.  Served on toasted French Parisian bread.",
+          "image_url": "https://newks.com/wp-content/uploads/2019/03/2019-Q2-OLO-1200x800-BistroSteakClub.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Chocolate Cake",
+          "description": "",
+          "image_url": "https://newks.com/wp-content/uploads/2017/06/ChocolateCake_1200x800.jpg"
+        },
+        {
+          "name": "Caramel Cake",
+          "description": "",
+          "image_url": "https://newks.com/wp-content/uploads/2016/11/caramel-cake-dessert.jpg"
+        }
+      ]
+    }
+  ]
+}
