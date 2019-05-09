@@ -1,7 +1,9 @@
 {
-  "restaraunt_name": "BriteCore",
+  "restaraunt_name": "Newk's",
   "restaraunt_address": "2305 South Blackman RD, Springfield, MO",
   "restaraunt_phone_number": "417-851-1289",
+  "restaraunt_logo_url": "https://finditatthemall.com/system/rich/rich_files/rich_files/000/001/997/original/newkseatery1.png?1470413146",
+  "britecore_logo_url": "https://static1.squarespace.com/static/584883ef46c3c40e92fe4085/t/592424b2197aeac1683e6e14/1556816276122/",
   "sections": [
     {
       "name": "Salads",
