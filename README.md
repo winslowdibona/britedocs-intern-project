@@ -10,11 +10,18 @@ The goal of this project is to produce of pdf of a menu given the data set provi
 
 ## Steps to get started
 1. Install [Docker](https://www.docker.com/) on your machine
-1. Fork this repo
-2. Clone locally
-3. From the project directory run `docker-compose up`
-  - This will build a docker container that hosts a small web app used to render the pdf.
-  - To stop the web app run `docker-compose down`
+	- If your machine does not support Docker, continue on until step 4
+2. Fork this repo
+3. Clone locally
+4. From the project directory
+	- If you are able to run Docker, run `docker-compose up`
+	  - This will build a docker container that hosts a small web app used to render the pdf.
+	  - To stop the web app run `docker-compose down`
+  	- If you are not able to run docker
+  		- Run `python3 -m venv /path/to/your/project/.venv`
+  		- Run `source .venv/bin/activate`
+  		- Run `python3 -m pip install -r requirements.txt`
+  		- Run `FLASK_APP=app.py flask run`
 
 From here you can begin developing the template in `britedocs-intern-project/templates/Menu.html`. The data provided in `data.json` will automatically be available to your template when you attempt to render it.
 To test rendering your template, make sure the docker container is running and in a separate window run
