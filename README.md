@@ -9,6 +9,9 @@ The goal of this project is to produce of pdf of a menu given the data set provi
 
 
 ## Steps to get started
+
+**If you are running Windows 10 Home Edition skip these steps and go to the next section**
+
 1. Install [Docker](https://www.docker.com/) on your machine
 	- If your machine does not support Docker, continue on until step 4
 2. Fork this repo
@@ -31,6 +34,26 @@ curl -X POST http://0.0.0.0:5000 -d '{"template_name": "Menu"}' -H "Content-Type
 ```
 
 and you should recieve a response that says `Documents Rendered!`. The rendered HTML and PDF documents will appear in the `britedocs-intern-project/output/` directory.
+
+
+## Windows 10 Home Edition Workaround
+
+Unfortunately Docker cannot run on Windows 10 Home edition. To get around this limitation, you can utilize the site [pythonanywhere](pythonanywhere.com/).
+
+Sign up for the free account and follow the steps below.
+
+1. Create a new bash console
+2. Clone your repo
+3. Run `cd britedocs-intern-project`
+4. Run `python3 -m venv .venv`
+5. Run `source .venv/bin/activate`
+6. Run `python3 -m pip install -r requirements.txt`
+7. Run `mkdir output`
+8. Develop your template in the `Menu.html` file
+    - You can do this on your own machine and upload it into the `templates` directory
+		- Or you can use the editor provided in the site to edit your template
+9. When you want to see what your template looks like run `python workaround.py`
+10. You should see the console output `Document Rendered!`. Your rendered template will appear in the `output` directory.
 
 
 ## Deliverables
